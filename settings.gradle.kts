@@ -1,4 +1,11 @@
 pluginManagement {
+  repositories {
+    maven("https://maven.aliyun.com/repository/gradle-plugin")
+    maven("https://maven.aliyun.com/repository/public")
+    gradlePluginPortal()
+    mavenCentral()
+  }
+
   plugins {
     id("com.gradleup.shadow") version "9.4.1"
     id("com.gradle.develocity") version "4.4.1"
