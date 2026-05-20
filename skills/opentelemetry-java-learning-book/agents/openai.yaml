@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenTelemetry Java Learning Book"
+  short_description: "Scaffold OpenTelemetry Java study-book docs"
+  default_prompt: "Use $opentelemetry-java-learning-book to scaffold a study-book style learning plan for OpenTelemetry Java."
